@@ -1,0 +1,8 @@
+.transaction-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    width: 25em;
+    margin: 1em;   
+}

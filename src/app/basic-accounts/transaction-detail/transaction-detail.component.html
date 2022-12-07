@@ -1,0 +1,16 @@
+<form class="transaction-detail" [formGroup]="transactionDataForm">
+    <mat-form-field>
+        <mat-label for="name">Name</mat-label>
+        <input matInput id="name" type="text" formControlName="fullName" >
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label for="accountNumber">Account number</mat-label>
+        <input matInput id="accountNumber" type="text" formControlName="accountNumber" >
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label for="amount">Amount</mat-label>
+        <input matInput id="amount" type="text" formControlName="amount" >
+    </mat-form-field>
+</form>
